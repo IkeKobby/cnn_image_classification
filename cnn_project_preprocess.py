@@ -150,7 +150,7 @@ def plot_training_history(history):
     """
     ## Get train_loss, val_loss
     loss = history.history['loss']
-    val_loss = history.history['val_accuracy']
+    val_loss = history.history['val_loss']
 
     ## Get train_accuracy, val_accuracy
     accuracy = history.history['accuracy']
